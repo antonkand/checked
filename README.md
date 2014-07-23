@@ -25,7 +25,7 @@ var checked = require('./custom_modules/checked');
 
 ###Usage
 
-Use Checked when you want to make sure a variable is of a certain type. Pass in a variable and Checked methods returns either true or false. Checked has the following properties:
+Use Checked when you want to make sure a variable is of a certain type. Pass in a variable and Checked methods returns either true or false. Checked has the following methods:
 
 * .isArray() 
 
