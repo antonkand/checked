@@ -11,12 +11,12 @@ function checkObject (variable, comparison) {
 
 // Makes use of Array's prototype method if present.
 // They're basically the same, anyhow.
-if (Array.isArray) {
-	checked.isArray = Array.isArray;
+if (Array.prototype.isArray) {
+	checked.isArray = Array.prototype.isArray;
 }
 else {
 	checked.isArray = function (variable) {
-			return checkObject(variable, '[object String]');
+			return checkObject(variable, '[object Array]');
 	};
 }
 
